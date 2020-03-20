@@ -1,0 +1,17 @@
+{
+  "name": "AlexVenga/otus_hw_2_01",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AlexVenga\\": "src"
+    }
+  }
+}
