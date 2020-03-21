@@ -13,7 +13,7 @@ class CheckBrackets
 
         while (preg_match('/\(\)/', $string)) {
             $string = preg_replace('/\(\)/', '', $string);
-        };
+        }
 
         if (empty($string)) {
             return true;
