@@ -15,11 +15,11 @@ class BracketsMathematicalExpressions
     public function __construct($mathematicalExpression)
     {
 
+        $this->mathematicalExpression = $mathematicalExpression;
+
         if (!$this->checkMathematicalExpression()) {
             throw new InvalidArgumentException('The equation contains invalid characters');
         }
-
-        $this->mathematicalExpression = $mathematicalExpression;
     }
 
     protected function checkMathematicalExpression()
